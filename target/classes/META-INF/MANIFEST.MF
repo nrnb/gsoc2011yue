@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: Marle
+Build-Jdk: 1.6.0_26
+Bundle-Version: 1.0.0.SNAPSHOT
+Tool: Bnd-1.15.0
+Bundle-Name: org.cytoscape.paperwing-impl [org.cytoscape.paperwing]
+Spring-Context: META-INF/spring/*.xml
+Bnd-LastModified: 1314038295409
+Created-By: Apache Maven Bundle Plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.cytoscape.paperwing-impl
+Import-Package: com.jogamp.opengl.util,com.jogamp.opengl.util.gl2,java
+ x.media.opengl,javax.media.opengl.awt,javax.media.opengl.glu,javax.sw
+ ing,org.cytoscape.application,org.cytoscape.model,org.cytoscape.model
+ .events,org.cytoscape.service.util,org.cytoscape.view.model,org.cytos
+ cape.view.presentation,org.cytoscape.view.presentation.property
+
